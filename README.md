@@ -1,6 +1,6 @@
 ## ProblemsHunt? 
 
-- inspired by ProductHunt. running out of ideas? confused about what to build? Problems hunt comes to the rescue. 
+Inspired by ProductHunt. running out of ideas? confused about what to build? Problems hunt comes to the rescue. 
 
 people can signup and post any popup ideas.
 
