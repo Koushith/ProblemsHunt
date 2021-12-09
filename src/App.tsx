@@ -1,5 +1,16 @@
 import React from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HomeScreen, AboutScreen, DiscoverProblems, SolutionsScreen } from '../src/components/screens';
 
 export const App = () => {
-  return <h1>Hello World</h1>;
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<HomeScreen />} />
+        <Route path='about' element={<AboutScreen />} />
+        <Route path='discoverproblems' element={<DiscoverProblems />} />
+        <Route path='discoversolutions' element={<SolutionsScreen />} />
+      </Routes>
+    </BrowserRouter>
+  );
 };
