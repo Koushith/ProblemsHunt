@@ -62,8 +62,7 @@ table {
 }
 body {
   line-height: 1;
-  background-color:#F6F7FB;
-  font-family: ${primaryFont};
+  font-family: 'Inter', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

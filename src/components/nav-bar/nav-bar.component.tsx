@@ -1,12 +1,10 @@
-import { Link } from 'react-router-dom';
+import { Pane, Text } from 'evergreen-ui';
 
 export const NavBar = () => {
   return (
-    <div style={{ padding: '10px' }}>
-      <Link to='/'> Home </Link>
-      <Link to='/about'>About </Link>
-      <Link to='/discoverproblems'> Discover Problems</Link>
-      <Link to='/discoversolutions'>Discover Soluions </Link>
-    </div>
+    <Pane>
+      <Text>Pane</Text>
+      <Text>fgdfghdfhfdgh</Text>
+    </Pane>
   );
 };
