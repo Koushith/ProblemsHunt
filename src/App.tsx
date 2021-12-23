@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { HomeScreen, AboutScreen, DiscoverProblems, SolutionsScreen } from '../src/components/screens';
+import { GlobalStyle } from './utils';
 
 export const App = () => {
   return (
@@ -11,6 +12,7 @@ export const App = () => {
         <Route path='discoverproblems' element={<DiscoverProblems />} />
         <Route path='discoversolutions' element={<SolutionsScreen />} />
       </Routes>
+      <GlobalStyle />
     </BrowserRouter>
   );
 };
