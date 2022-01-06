@@ -4,18 +4,14 @@ import UpvoteActive from '../../assets/icons/upvoteActive.svg';
 import UpvoteDefault from '../../assets/icons/upvoteDefault.svg';
 import { UpVoteContainer } from './upvote.component.styles';
 
-export const UpVote = () => {
+export const UpVote = (props: any) => {
+  const { voteCount } = props;
+
   const [count, setCount] = useState(false);
-  const [vote, setVote] = useState(0);
+  console.log('switch', count);
 
   const handelCounter = () => {
-    setCount(true);
-    if (count) {
-      setVote(vote + 1);
-      setCount(false);
-    } else {
-      setVote(0);
-    }
+    setCount(!count);
   };
 
   return (
@@ -33,7 +29,7 @@ export const UpVote = () => {
         </Pane>
         <Pane display='flex' flexDirection='column' alignItems='center' justifyContent='center' marginTop={'1.61px'}>
           <Heading size={500} padding={'2px'}>
-            {vote}
+            {voteCount}
           </Heading>
           <Text size={300} marginTop={'1px'}>
             UPVOTES
