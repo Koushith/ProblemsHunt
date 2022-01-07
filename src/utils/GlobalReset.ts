@@ -63,7 +63,7 @@ table {
 body {
   line-height: 1;
   font-family: 'Inter', sans-serif;
-  background: '#F8F8F8';
+  background: #F8F8F8;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
