@@ -1,5 +1,6 @@
 import { Pane } from 'evergreen-ui';
 import { NavBar } from '../../../components';
+import { GenericAvatar } from '../../avatar/generic-avatar.component';
 import { SideBar } from '../../side-bar/sidebar-component';
 
 export const HomeScreen = () => {
@@ -7,7 +8,7 @@ export const HomeScreen = () => {
     <>
       <NavBar />
       <Pane display='flex' alignItems='center' justifyContent='center' flexDirection={'column'} marginTop={20}>
-        <SideBar />
+        <GenericAvatar name='kou' date={10} />
       </Pane>
     </>
   );
