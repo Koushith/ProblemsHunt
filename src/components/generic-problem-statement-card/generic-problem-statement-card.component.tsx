@@ -1,7 +1,7 @@
 import { Heading, Pane, Paragraph, Badge } from 'evergreen-ui';
-import { ProblemStatementCardProps } from './problem-statement-card.props';
+import { GenericProblemStatementCardProps } from './generic-problem-statement-card.props';
 
-export const ProblemStatementCard: React.FC<ProblemStatementCardProps> = (props) => {
+export const GenericProblemStatementCard: React.FC<GenericProblemStatementCardProps> = (props) => {
   const { heading, description, tags } = props;
   return (
     <Pane width={294} backgroundColor={'white'}>

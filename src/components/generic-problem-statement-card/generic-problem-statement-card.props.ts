@@ -2,7 +2,7 @@
  * Props supported by ProblemStatementCard
  */
 
-export interface ProblemStatementCardProps {
+export interface GenericProblemStatementCardProps {
   heading: string;
   description: string;
   tags?: string;
