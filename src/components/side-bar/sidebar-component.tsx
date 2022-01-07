@@ -1,5 +1,5 @@
 import { Pane, Heading } from 'evergreen-ui';
-import { ProblemStatementCard } from '..';
+import { GenericProblemStatementCard } from '..';
 
 export const SideBar = () => {
   return (
@@ -8,7 +8,7 @@ export const SideBar = () => {
         Trending Problem Statements
       </Heading>
       <Pane marginBottom={'3.2rem'}>
-        <ProblemStatementCard
+        <GenericProblemStatementCard
           heading='PandaDoc for Developers'
           description='A seamless way to generate documents and collect eSignatures'
         />
