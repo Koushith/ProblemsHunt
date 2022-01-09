@@ -12,4 +12,4 @@ I came across generous genuine people who have great ideas and don't have time t
 
 Plot twist- the app should have upvoting- anyone can build the application based on the same idea, but execution matters. the one who manages to finish the task will be featured on the top.
 
-also other submissions as well. we can have a poll to check which version is better.
+also other submissions as well. we can have a poll to check which version is better..
